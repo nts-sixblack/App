@@ -71,7 +71,6 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductH
         public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
             contextMenu.setHeaderTitle("Add To Cart");
             contextMenu.add(getAdapterPosition(), 101, 0, "Add");
-            contextMenu.add(getAdapterPosition(), 102, 1, "Hmm");
         }
     }
 
